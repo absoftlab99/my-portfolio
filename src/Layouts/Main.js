@@ -7,7 +7,7 @@ const Main = () => {
     return (
         <div>
             <Header></Header>
-            <div className='height'>
+            <div className='window'>
                 <Outlet></Outlet>
             </div>
             <Footer></Footer>

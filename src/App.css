@@ -1,5 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .App {
   text-align: center;
+}
+.ff-brand{
+  font-family: 'Poppins', sans-serif;
+}
+.mern{
+  background: #118B4B;
+background: linear-gradient(to right, #118B4B 9%, #E7D41C 35%, #00D1F2 78%, #519A41 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
+.brand{
+  color: #ff014f;
+}
+.window{
+  min-height: 80vh;
 }
 
 .App-logo {
