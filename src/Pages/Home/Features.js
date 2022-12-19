@@ -6,8 +6,8 @@ import { ImStack } from "react-icons/im";
 const Features = () => {
     return (
         <div className='mt-16 ff-brand'>
-            <h3 className='text-xl tracking-widest brand'>FEATURES</h3>
-            <h1 className='text-6xl font-[800]'>What I Do_</h1>
+            <h3 className='tracking-widest brand'>FEATURES</h3>
+            <h1 className='text-6xl font-[800] pt-5'>What I Do_</h1>
             <div className="grid grid-cols-12 gap-4 my-16">
                 <div className="col-span-4 shadow-2xl border rounded-2xl p-8 hover:-translate-y-2 duration-500 hover:bg-pink-500 hover:text-white">
                     <FiMenu className='text-5xl'></FiMenu>

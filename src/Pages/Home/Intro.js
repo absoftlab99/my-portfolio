@@ -37,7 +37,7 @@ const Intro = () => {
                     </span>
                 </h1>
                 <p className='pt-5 text-justify text-gray-500'>
-                I use animation as a third dimension by which to simplify experiences and kuiding thro each and every interaction. I’m not adding motion just to spruce things up, but doing it in ways that.
+                I am a full-stack developer with a focus on the MERN stack (MongoDB, Express, React, and Node.js). I have a passion for building modern, scalable, and responsive web applications that deliver a seamless user experience.
                 </p>
                 <div className='mt-4'>
                     <h3 className='text-xl'>Best Skill On</h3>
