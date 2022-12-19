@@ -15,6 +15,9 @@ background: linear-gradient(to right, #118B4B 9%, #E7D41C 35%, #00D1F2 78%, #519
 .brand{
   color: #ff014f;
 }
+.brands{
+  background-color: #ff014f;
+}
 .window{
   min-height: 80vh;
 }
