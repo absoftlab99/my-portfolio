@@ -12,11 +12,13 @@ import firebase from '../../Assets/images/firebase.png';
 import vercel from '../../Assets/images/vercel.png';
 import netlify from '../../Assets/images/netlify.png';
 import mongodb from '../../Assets/images/mongdb.png';
+import photo from '../../Assets/images/photo.png';
+
 
 const Intro = () => {
     return (
         <div className='grid grid-cols-12 gap-4'>
-            <div className='col-span-7'>
+            <div className='col-span-7 pr-5'>
                 <h2 className='text-sm font-thin tracking-widest text-gray-700'>WELCOME MY WORLD!</h2>
                 <h1 className='text-5xl font-[900] pt-5'>Hi, I'm <span className='brand'>A. Al Mahmud</span></h1>
                 <h1 className='text-5xl brand font-[900] pt-3'>
@@ -79,7 +81,11 @@ const Intro = () => {
                     </div>
                 </div>
             </div>
-            <div className='col-span-5 bg-pink-500'>grid 2</div>
+            <div className='col-span-5'>
+                <div className='h-[430px] shadow-2xl bg-gradient-to-b from-red-300 via-red-200 to-red-100 rounded'>
+                    <img className='-translate-y-16 h-[494px] m-auto' src={photo} alt="" />
+                </div>
+            </div>
         </div>
     );
 };
