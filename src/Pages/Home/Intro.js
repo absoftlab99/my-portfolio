@@ -42,48 +42,48 @@ const Intro = () => {
                 <div className='mt-4'>
                     <h3 className='text-xl'>Best Skill On</h3>
                     <div className='grid grid-cols-12 mt-3'>
-                        <div className='p-2 col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
+                        <div className='p-2 glass col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
                             <img src={html} alt="html 5" />
                         </div>
-                        <div className='p-2 col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
+                        <div className='p-2 glass col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
                             <img src={css} alt="css 3" />
                         </div>
-                        <div className='p-2 col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
+                        <div className='p-2 glass col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
                             <img src={bootstrap} alt="bootstrap" />
                         </div>
-                        <div className='p-2 col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
+                        <div className='p-2 glass col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
                             <img src={tailwindcss} alt="tailwind css" />
                         </div>
-                        <div className='p-2 col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
+                        <div className='p-2 glass col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
                             <img src={javascript} alt="java script" />
                         </div>
-                        <div className='p-2 col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
+                        <div className='p-2 glass col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
                             <img src={reacts} alt="React" />
                         </div>
-                        <div className='p-2 col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
+                        <div className='p-2 glass col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
                             <img src={express} alt="Express JS" />
                         </div>
-                        <div className='p-2 col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
+                        <div className='p-2 glass col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
                             <img src={node} alt="Node Js" />
                         </div>
-                        <div className='p-2 col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
+                        <div className='p-2 glass col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
                             <img src={vercel} alt="Vercel" />
                         </div>
-                        <div className='p-2 col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
+                        <div className='p-2 glass col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
                             <img src={mongodb} alt="Mongo DB" />
                         </div>
-                        <div className='p-2 col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
+                        <div className='p-2 glass col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
                             <img src={firebase} alt="firebase" />
                         </div>
-                        <div className='p-2 col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
+                        <div className='p-2 glass col-span-1 shadow-2xl border h-12 w-12 rounded hover:-translate-y-2 duration-500'>
                             <img src={netlify} alt="netlify" />
                         </div>
                     </div>
                 </div>
             </div>
             <div className='col-span-5'>
-                <div className='h-[430px] shadow-2xl bg-gradient-to-b from-red-300 via-red-200 to-red-100 rounded'>
-                    <img className='-translate-y-16 h-[494px] m-auto' src={photo} alt="" />
+                <div className='p-10'>
+                    <img className='-translate-y-16 m-auto' src={photo} alt="" />
                 </div>
             </div>
         </div>

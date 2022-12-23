@@ -8,13 +8,12 @@
 .card:hover{
   border: 1px solid deeppink;
 }
-.mern{
+/* .mern{
   background: #118B4B;
 background: linear-gradient(to right, #118B4B 9%, #E7D41C 35%, #00D1F2 78%, #519A41 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-
-}
+} */
 .brand{
   color: #ff014f;
 }
