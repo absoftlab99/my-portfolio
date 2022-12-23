@@ -6,9 +6,9 @@ const Home = () => {
     return (
         <div className='mt-20 w-[85%] m-auto'>
             <Intro></Intro>
-            <hr className='mt-16'></hr>
+            <hr className='mt-16' id='features'></hr>
             <Features></Features>
-            <hr className='my-16'></hr>
+            <hr className='my-16' id='portfolio'></hr>
             <Portfolio></Portfolio>
             <hr className='my-16'></hr>
         </div>
