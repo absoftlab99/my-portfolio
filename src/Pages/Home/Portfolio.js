@@ -12,7 +12,7 @@ const Portfolio = () => {
         <div>
             <div className="text-center">
                 <h3 className='tracking-widest brand'>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h3>
-                <h1 className='text-6xl font-[800] pt-5'>My Portfolio</h1>
+                <h1 className='text-6xl font-[800] pt-5'>My Portfolio_</h1>
             </div>
             <div className="grid grid-cols-12 gap-4 my-8">
                 <div className="col-span-4">

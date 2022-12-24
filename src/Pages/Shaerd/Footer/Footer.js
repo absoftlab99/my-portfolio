@@ -1,6 +1,5 @@
-import React, { Component} from 'react';
+import React from 'react';
 import { FacebookProvider, Page } from 'react-facebook';
-import { useProfile } from 'react-facebook';
 import { Link } from 'react-router-dom';
 import profile from '../../../Assets/images/profile.png';
 
