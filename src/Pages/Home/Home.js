@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from './Contact';
 import Features from './Features';
 import Intro from './Intro';
 import Portfolio from './Portfolio';
@@ -11,6 +12,7 @@ const Home = () => {
             <hr className='my-16' id='portfolio'></hr>
             <Portfolio></Portfolio>
             <hr className='my-16'></hr>
+            <Contact></Contact>
         </div>
     );
 };
