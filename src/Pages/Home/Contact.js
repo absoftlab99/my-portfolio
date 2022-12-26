@@ -52,13 +52,13 @@ const Contact = () => {
                             <label className="label">
                                 <span className="label-text">YOUR NAME</span>
                             </label>
-                            <input type="text" placeholder="" className="input input-bordered" />
+                            <input {...register} type="text" placeholder="" className="input input-bordered" />
                         </div>
                         <div className="form-control w-[50%]">
                             <label className="label">
                                 <span className="label-text">PHONE NUMBER</span>
                             </label>
-                            <input type="text" placeholder="" className="input input-bordered" />
+                            <input {...register} type="text" placeholder="" className="input input-bordered" />
                         </div>
                     </div>
                     <div className='px-10'>
@@ -66,7 +66,7 @@ const Contact = () => {
                             <label className="label">
                                 <span className="label-text">EMAIL</span>
                             </label>
-                            <input type="email" placeholder="" className="input input-bordered" />
+                            <input {...register} type="email" placeholder="" className="input input-bordered" />
                         </div>
                         <div className="form-control">
                             <label className="label">
@@ -78,11 +78,11 @@ const Contact = () => {
                             <label className="label">
                                 <span className="label-text">YOUR MESSAGE</span>
                             </label>
-                            <textarea className="textarea input-bordered h-40" placeholder=""></textarea>
+                            <textarea {...register} className="textarea input-bordered h-40" placeholder=""></textarea>
                         </div>
                     </div>
                     <div className='px-10 mt-5'>
-                        <button className='btn bg-gradient-to-l from-slate-50 to-slate-300 w-[100%] text-black shadow-2xl'>SEND MESSAGE</button>
+                        <button onSubmit={register} className='btn bg-gradient-to-l from-slate-50 to-slate-300 w-[100%] text-black shadow-2xl'>SEND MESSAGE</button>
                     </div>
                     </form>
                 </div>
