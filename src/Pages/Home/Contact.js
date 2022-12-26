@@ -78,7 +78,7 @@ const Contact = () => {
                             <label className="label">
                                 <span className="label-text">YOUR MESSAGE</span>
                             </label>
-                            <textarea {...register} className="textarea input-bordered h-40" placeholder=""></textarea>
+                            <textarea {...register} className="textarea input-bordered h-40" placeholder={errors}></textarea>
                         </div>
                     </div>
                     <div className='px-10 mt-5'>
